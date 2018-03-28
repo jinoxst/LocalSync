@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment></comment>
+  <entry key="threadpoolcnt">10</entry>
+  <entry key="ip">192.168.61.71</entry>
+  <entry key="port">3306</entry>
+  <entry key="database">pcBang</entry>
+  <entry key="user">dbuser</entry>
+  <entry key="password">password</entry>
+  <entry key="mssqlport">1433</entry>
+  <entry key="mssqldatabase">MSDB</entry>
+  <entry key="mssqluser">sa</entry>
+  <entry key="mssqlpassword">password</entry>
+</properties>
