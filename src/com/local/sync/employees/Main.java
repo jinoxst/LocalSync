@@ -72,11 +72,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("I edited this class");
-        System.out.println("I edited this class2");
-        System.out.println("I edited this class3");
-        System.out.println("add this comments");
-        System.out.println("add this comments-1");
         if(args != null && args.length == 1 && args[0].trim().length() > 0){
             Main.reportId = Integer.parseInt(args[0].trim());
             logger.info("report id:" + Main.reportId);
