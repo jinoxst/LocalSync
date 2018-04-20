@@ -75,6 +75,7 @@ public class Main {
         System.out.println("rebase-1");
         System.out.println("rebase-2");
         System.out.println("rebase-3");
+        System.out.println("rebase-4");
         if(args != null && args.length == 1 && args[0].trim().length() > 0){
             Main.reportId = Integer.parseInt(args[0].trim());
             logger.info("report id:" + Main.reportId);
