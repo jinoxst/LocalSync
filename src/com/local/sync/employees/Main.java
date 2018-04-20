@@ -72,6 +72,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("rebase-1");
         if(args != null && args.length == 1 && args[0].trim().length() > 0){
             Main.reportId = Integer.parseInt(args[0].trim());
             logger.info("report id:" + Main.reportId);
